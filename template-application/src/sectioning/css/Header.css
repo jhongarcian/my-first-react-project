@@ -1,6 +1,6 @@
 .nav-item {
   text-decoration: none;
-  color: black;
+  color: rgba(0, 0, 0, 0.511);
 }
 
 .nav-list li:first-of-type {
@@ -13,9 +13,14 @@
   gap: 24px;
   padding: 24px 0;
   border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+  margin: 0;
 }
 
 .nav-item:hover {
   text-decoration: underline;
   color: rgba(0, 0, 0, 0.754);
+}
+
+.active {
+    color: black;
 }
